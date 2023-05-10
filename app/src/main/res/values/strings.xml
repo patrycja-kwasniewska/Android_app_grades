@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">lab1a</string>
+    <string name="name_error">Imie nie moze byc puste</string>
+    <string name="surname_error">Nazwisko nie moze byc puste</string>
+    <string name="grades_error">Pole ocen nie moze byc puste</string>
+    <string name="grades_hint_out_of_range">Liczba spoza zakresu</string>
+    <string name="grades_hint_number_format_exception">Liczba ocen musi byc liczba calkowita</string>
+    <string name="komunikat_koniec_pozytywny">Gratulacje! Otrzymujesz zaliczenie!</string>
+    <string name="komunikat_koniec_negatywny">Wysyłam podanie o zaliczenie warunkowe!</string>
+
+    <string-array name="subjects_array">
+        <item>Matematyka</item>
+        <item>Bazy danych</item>
+        <item>Angielski</item>
+        <item>Java</item>
+        <item>C++</item>
+        <item>Algorytmy</item>
+        <item>Python</item>
+        <item>AI</item>
+        <item>HTML</item>
+        <item>JavaScript</item>
+        <item>Projekt</item>
+        <item>iOS</item>
+        <item>Systemy wbudowane</item>
+        <item>SQL</item>
+        <item>Sieci</item>
+    </string-array>
+
+
+</resources>

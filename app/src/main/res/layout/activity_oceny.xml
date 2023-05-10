@@ -1,0 +1,120 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/oceny_table"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:padding="9dp"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:stretchColumns="*">-->
+
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:id="@+id/text1"-->
+<!--            android:text="C++"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="4dp"-->
+<!--            android:layout_weight="1"/>-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button1a"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="2" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button1b"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="3" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button1c"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="4" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button1d"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="5" />-->
+
+<!--    </TableRow>-->
+
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:id="@+id/text2"-->
+<!--            android:text="C++"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="4dp"-->
+<!--            android:layout_weight="1"/>-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button2a"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="2" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button2b"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="3" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button2c"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="4" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button2d"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="5" />-->
+
+<!--    </TableRow>-->
+<!--</TableLayout>-->
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="9dp">
+
+<!--    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/scroll_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+        <TableLayout
+            android:id="@+id/oceny_table"
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:stretchColumns="5">
+        </TableLayout>
+
+<!--    </ScrollView>-->
+
+        <Button
+            android:id="@+id/button_srednia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Oblicz średnią"
+            android:textColorHint="@android:color/white"
+            />
+
+</LinearLayout>

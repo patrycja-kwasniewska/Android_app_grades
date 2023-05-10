@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imię:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:inputType="text"
+        android:hint="Wpisz imie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/label_name"
+        app:layout_constraintTop_toTopOf="@+id/label_name"
+        />
+
+    <TextView
+        android:id="@+id/label_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwisko:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/edit_surname"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:inputType="text"
+        android:hint="Wpisz nazwisko"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/label_surname"
+        app:layout_constraintTop_toTopOf="@+id/label_surname" />
+
+    <TextView
+        android:id="@+id/label_grades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oceny:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_surname"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/edit_grades"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:inputType="numberDecimal"
+        android:hint="Wpisz liczbe ocen [5;15]"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/label_grades"
+        app:layout_constraintTop_toTopOf="@+id/label_grades" />
+
+
+    <TextView
+        android:id="@+id/label_average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="92dp"
+        android:text="Średnia:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_surname"
+        android:visibility="invisible"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/average"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="96dp"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/label_grades"
+        app:layout_constraintTop_toTopOf="@+id/label_grades"
+        android:visibility="invisible"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/komunikatKoniec"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="276dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/label_grades"
+        app:layout_constraintTop_toTopOf="@+id/label_grades" />
+
+    <Button
+        android:id="@+id/button_grades"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Wyświetl oceny"
+        android:inputType="numberDecimal"
+        android:textColorHint="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_grades"
+        app:layout_constraintVertical_bias="0.275" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
