@@ -1,27 +1,37 @@
-Aplikacja do wpisywania ocen i obliczania średniej:
+## Android App
 
-Aplikacja umożliwia użytkownikowi wprowadzenie swoich danych, a następnie ocen. 
-Na ich podstawie obliczana jest średnia arytmetyczna. 
-Aplikacja jest łatwa w obsłudze i przeznaczona dla uczniów lub studentów, którzy chcą śledzić swoje oceny i obliczyć swoją średnią.
+This is an Android application that allows users to input their name, surname, and grades, and calculates their average grade. 
+Depending on the average grade, the application displays a different message and behavior.
 
-Funkcje aplikacji:
-Wpisanie swoich danych personalnych
-Wpisanie ilości ocen
-Dodawanie ocen końcowych za pomocą radio buttons
-Obliczanie średniej arytmetycznej
-Wyświetlanie listy wprowadzonych ocen
+## Features
 
-Jak korzystać z aplikacji:
-Po uruchomieniu aplikacji zostaniesz przekierowany na ekran główny, gdzie możesz wpisać swoje dane oraz liczbę ocen.
-Aby dodać nową ocenę musisz poprawnie wypełnić wszystkie pola na ekranie głównym, wtedy pojawi się przycisk przekierowujący do drugiego ekranu z możliwością wybrania ocen.
-Po naciśnięciu przycisku, obliczana jest średnia i następuje przekierowanie do pierwszego ekranu.
+- Input name, surname, and grades
+- Calculate average grade
+- Display different messages based on the average grade
+- Close the application automatically after displaying the message
 
-Technologie:
-Aplikacja została napisana w języku Java z wykorzystaniem środowiska Android Studio.
+## Technologies Used
 
-Instalacja:
-Aplikację można zainstalować na urządzeniu z systemem Android, pobierając plik .apk z repozytorium i uruchamiając go na urządzeniu.
+- Android Studio
+- Java
+- XML
 
-Podsumowanie:
-Ta aplikacja umożliwia użytkownikowi łatwe wprowadzenie ocen i obliczenie średniej arytmetycznej. 
-Jeśli jesteś uczniem lub studentem, który chce śledzić swoje wyniki z wybranych przedmiotów w prosty sposób, ta aplikacja jest dla Ciebie!
+## Getting Started
+
+To get started with the application, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Open the project in Android Studio.
+3. Build and run the application on an Android emulator or physical device.
+
+## Usage
+
+1. Launch the application on an Android emulator or physical device.
+2. Enter your name, surname, and grades in the corresponding input fields.
+3. The "Grades" button will become visible only when all input fields are filled correctly.
+4. Tap the "Grades" button to open the "Oceny" activity.
+5. The "Oceny" activity will display the calculated average grade based on the entered grades.
+6. Depending on the average grade, a different message will be shown, and the behavior of the "Grades" button will change:
+- If the average grade is 3.0 or higher, the button text will change to "SUPER!". Tapping the button will display a positive message and automatically close the application after 3 seconds.
+- If the average grade is below 3.0, the button text will change to "Tym razem nie wyszło :(". Tapping the button will display a negative message and automatically close the application after 3 seconds.
+
