@@ -34,4 +34,3 @@ To get started with the application, follow these steps:
 6. Depending on the average grade, a different message will be shown, and the behavior of the "Grades" button will change:
 - If the average grade is 3.0 or higher, the button text will change to "SUPER!". Tapping the button will display a positive message and automatically close the application after 3 seconds.
 - If the average grade is below 3.0, the button text will change to "Tym razem nie wyszło :(". Tapping the button will display a negative message and automatically close the application after 3 seconds.
-
